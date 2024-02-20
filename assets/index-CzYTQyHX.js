@@ -71,7 +71,7 @@ Error generating stack: `+o.message+`
   gap: 32px;
 `,Am=le.span`
   font-size: ${e=>e.theme.fontSize.md};
-`,Bm=({name:e,price:t,roastLevel:n,imageUrl:r})=>L.jsxs(Fm,{children:[L.jsx(jm,{imageUrl:r}),L.jsxs(Mm,{children:[L.jsx(Am,{children:e}),L.jsxs(Dm,{children:["$ ",t]})]}),L.jsxs(Um,{children:[L.jsx("img",{src:"../../src/assets/images/Star_fill.svg",alt:"product_photo"}),n,"/5 ",L.jsx("span",{children:"(roast level)"})]})]}),Hm=le.div`
+`,Bm=({name:e,price:t,roastLevel:n,imageUrl:r})=>L.jsxs(Fm,{children:[L.jsx(jm,{imageUrl:r}),L.jsxs(Mm,{children:[L.jsx(Am,{children:e}),L.jsxs(Dm,{children:["$ ",t]})]}),L.jsxs(Um,{children:[L.jsx("img",{src:"./../src/assets/images/Star_fill.svg",alt:"product_photo"}),n,"/5 ",L.jsx("span",{children:"(roast level)"})]})]}),Hm=le.div`
   background-image: url(../../src/assets/images/vector.svg);
   background-repeat: no-repeat;
   background-position-x: right;
@@ -185,7 +185,7 @@ Error generating stack: `+o.message+`
     text-decoration: none;
   }
 `,e0=()=>L.jsxs(bm,{children:["created by",L.jsxs("a",{href:"https://github.com/hoovks",target:"_blank",children:[" ","hoovks"]})]}),t0=le.div`
-  background-image: url("../../src/assets/images/bg-cafe.jpg");
+  background-image: url("./../src/assets/images/bg-cafe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
