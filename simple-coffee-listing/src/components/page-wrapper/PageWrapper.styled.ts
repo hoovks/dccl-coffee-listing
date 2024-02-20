@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const Hero = styled.div`
-  background-image: url("./../src/assets/images/bg-cafe.jpg");
+  background-image: url("src/assets/images/bg-cafe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
