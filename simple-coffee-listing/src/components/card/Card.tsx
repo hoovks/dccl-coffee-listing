@@ -24,7 +24,10 @@ export const Card = ({
         <Price>$ {price}</Price>
       </Row>
       <RoastLevel>
-        <img src="./src/assets/images/Star_fill.svg" alt="product_photo" />
+        <img
+          src="./simple-coffee-listing/src/assets/images/Star_fill.svg"
+          alt="product_photo"
+        />
         {roastLevel}/5 <span>(roast level)</span>
       </RoastLevel>
     </StyledCard>
