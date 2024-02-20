@@ -1,29 +1,26 @@
 import { styled } from "styled-components";
-
-interface ImageProps {
-  imageUrl: string;
-}
+import { ImageProps } from "./Card";
 
 export const StyledCard = styled.div`
-  color: #fef7ee;
-  font-weight: 600;
+  color: ${(props) => props.theme.palette.typography.light};
+  font-weight: ${(props) => props.theme.fontWeight.medium};
 `;
 
 export const Image = styled.div<ImageProps>`
+  background-color: ${(props) => props.theme.palette.background.light};
   background-image: url(${(props) => props.imageUrl});
   background-size: cover;
   background-position: center;
-  background-color: #1d1f21;
-
+  border-radius: ${(props) => props.theme.borderRadius.large};
   width: auto;
   height: 230px;
-  border-radius: 16px;
 `;
 
 export const Price = styled.div`
-  background-color: #bee3cc;
-  color: #111315;
-  border-radius: 4px;
+  background-color: ${(props) => props.theme.palette.background.accent};
+  border-radius: ${(props) => props.theme.borderRadius.small};
+  color: ${(props) => props.theme.palette.typography.dark};
+  white-space: nowrap;
   padding: 4px 6px;
 `;
 
@@ -33,7 +30,7 @@ export const RoastLevel = styled.div`
   gap: 4px;
 
   span {
-    color: #6f757c;
+    color: ${(props) => props.theme.palette.typography.main};
   }
 `;
 
@@ -46,5 +43,5 @@ export const Row = styled.div`
 `;
 
 export const Name = styled.span`
-  font-size: 18px;
+  font-size: ${(props) => props.theme.fontSize.md};
 `;

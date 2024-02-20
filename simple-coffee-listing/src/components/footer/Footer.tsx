@@ -4,7 +4,10 @@ export const Footer = () => {
   return (
     <StyledFooter>
       created by
-      <span> hoovks</span>
+      <a href="https://github.com/hoovks" target="_blank">
+        {" "}
+        hoovks
+      </a>
     </StyledFooter>
   );
 };

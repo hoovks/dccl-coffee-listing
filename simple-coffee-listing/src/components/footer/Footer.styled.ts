@@ -1,10 +1,12 @@
 import { styled } from "styled-components";
 
 export const StyledFooter = styled.div`
-  color: #6f757c;
+  color: ${(props) => props.theme.palette.typography.main};
   padding-bottom: 16px;
 
-  span {
-    font-weight: 600;
+  a {
+    color: inherit;
+    font-weight: ${(props) => props.theme.fontWeight.medium};
+    text-decoration: none;
   }
 `;

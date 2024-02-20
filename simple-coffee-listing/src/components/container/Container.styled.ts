@@ -1,16 +1,16 @@
 import { styled } from "styled-components";
 
 export const StyledContainer = styled.div`
-  margin-block: 100px;
-
-  width: 100%;
-  background-color: #1b1d1f;
-  border-radius: 16px;
-  z-index: 1;
-  padding: 32px;
+  background-color: ${(props) => props.theme.palette.background.main};
+  border-radius: ${(props) => props.theme.borderRadius.large};
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  min-height: 70vh;
+  padding: 32px;
+  margin-block: 100px;
+  z-index: 1;
 
   @media (min-width: 1024px) {
     max-width: 1280px;
