@@ -128,7 +128,7 @@ Error generating stack: `+o.message+`
     font-weight: ${e=>e.theme.fontWeight.medium};
     font-size: ${e=>e.theme.fontSize.md};
   }
-`,Gm=()=>L.jsxs(Ym,{children:[L.jsx("img",{src:"../../src/assets/images/Ball-1s-104px.svg",alt:"product_photo"}),L.jsx("span",{children:"Loading . . ."})]}),Xm=le.div`
+`,Gm=()=>L.jsxs(Ym,{children:[L.jsx("img",{src:"./../src/assets/images/Ball-1s-104px.svg",alt:"product_photo"}),L.jsx("span",{children:"Loading . . ."})]}),Xm=le.div`
   color: ${e=>e.theme.palette.typography.light};
   font-weight: ${e=>e.theme.fontWeight.light};
   font-size: ${e=>e.theme.fontSize.md};
