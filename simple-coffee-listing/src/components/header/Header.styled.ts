@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const StyledHeader = styled.div`
-  background-image: url(../../src/assets/images/vector.svg);
+  background-image: url(./src/assets/images/vector.svg);
   background-repeat: no-repeat;
   background-position-x: right;
   color: ${(props) => props.theme.palette.typography.main};
